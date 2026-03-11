@@ -5,7 +5,7 @@ The goal is to evaluate different strategies in terms of **speed**, **scalabilit
 
 ---
 
-## 🔍 Overview
+## Overview
 
 The basic algorithm:
 1. Read the content of the input text file.  
@@ -18,7 +18,7 @@ Two distributed implementations have been developed:
 
 ---
 
-## ⚙️ Testing and Dataset
+## Testing and Dataset
 
 The system was tested on several files of increasing size, derived from the *King James Bible (1611)*:
 - `pg.txt` – 2 KB  
@@ -32,7 +32,7 @@ Performance metrics include **execution time**, **mapper/reducer time**, and **b
 
 ---
 
-## 💻 Not Distributed Implementations
+## Not Distributed Implementations
 
 For comparison, two additional standalone implementations were created:
 - **Python version** – High-level interpreted approach.  
@@ -42,7 +42,7 @@ These versions do not use MapReduce but process files sequentially or using mult
 
 ---
 
-## 🇮🇹 Italian Letter Frequency Analysis
+## Italian Letter Frequency Analysis
 
 The project also includes an analysis of letter frequencies in eight Italian texts, from **19 B.C. to 2023 A.D.**, to study linguistic evolution:
 - *Eneide* (Latin, 19 B.C.)  
@@ -56,7 +56,7 @@ The project also includes an analysis of letter frequencies in eight Italian tex
 
 ---
 
-## 📊 Results and Conclusions
+## Results and Conclusions
 
 - **In-Mapper Combining** significantly reduces execution time compared to the combiner strategy.  
 - Increasing reducers (from 1 to 3) yields limited improvements.  
